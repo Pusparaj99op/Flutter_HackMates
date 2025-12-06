@@ -1,50 +1,55 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- Sync Impact Report
+Version change: N/A → 1.0.0
+List of modified principles: New principles added (100% Dreamflow Native, Hackathon Judge Focus, MVP + Wow Factor, Visual Excellence, Data-Driven)
+Added sections: Success Metrics, Constraints, Non-Negotiables
+Removed sections: None
+Templates requiring updates: None
+Follow-up TODOs: None
+-->
+# EcoQuest: AR Carbon Tracker Hackathon App Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### 100% Dreamflow Native
+No custom code, only Dreamflow's visual builder, Firebase integration, and built-in components
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Hackathon Judge Focus
+Innovation (AR + sustainability), Polish (Material 3 UI/UX), Impact (measurable carbon savings), Demo-ready (APK in 4 hours)
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### MVP + Wow Factor
+Core tracking + 3 AR challenges + leaderboards = complete experience
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Visual Excellence
+Vibrant green (#4CAF50)/ocean blue theme, micro-animations, responsive design
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Data-Driven
+Firebase backend with realtime sync, charts, exportable reports
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Success Metrics
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+- APK deploys successfully from Dreamflow
+- 30-second demo shows: scan→track→challenge→leaderboard→share
+- Judges can test full flow with test accounts
+- Clean, professional UI beats 90% of entries
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Constraints
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+- Dreamflow limitations (no complex custom ML, simple AR via camera overlays)
+- 4-hour build time
+- Firebase free tier only
+- Android only (iOS optional)
+
+## Non-Negotiables
+
+- Smooth onboarding (under 30s)
+- Offline-first with sync
+- Shareable achievements (deep links)
+- Accessibility compliance
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+Constitution supersedes all other practices; Amendments require documentation, approval, migration plan
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+All PRs/reviews must verify compliance; Complexity must be justified; Use constitution for runtime development guidance
+
+**Version**: 1.0.0 | **Ratified**: 2025-12-06 | **Last Amended**: 2025-12-06
