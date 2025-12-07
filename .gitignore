@@ -1,76 +1,45 @@
-# EcoQuest AR Carbon Tracker - Git Ignore
-# Project Type: Dreamflow Visual Builder (No-Code Platform)
-
-# Note: This is a Dreamflow project. There are no traditional source files.
-# All implementation is done through Dreamflow's web interface.
-# This .gitignore only covers documentation and configuration files.
-
-# IDE and Editor Files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-Thumbs.db
-
-# Environment Variables (if any local config exists)
-.env
-.env.local
-.env.*.local
-
-# Logs
+# Miscellaneous
+*.class
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Firebase Config (sensitive data)
-google-services.json
-firebase-config.json
-.firebase/
-.firebaserc
-
-# Build Artifacts (if APK downloaded locally)
-*.apk
-*.aab
-build/
-dist/
-
-# Temporary Files
-tmp/
-temp/
-*.tmp
-*.cache
-
-# OS Generated Files
+*.pyc
+*.swp
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
 
-# Documentation Drafts (keep published docs)
-drafts/
-notes/
-scratch/
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
 
-# Asset Originals (keep optimized versions)
-assets-source/
-*.psd
-*.ai
-*.sketch
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
 
-# Dependencies (if any local tools used)
-node_modules/
-vendor/
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
 
-# Test Data
-test-data/
-mock-data/
+# Symbolication related
+app.*.symbols
 
-# Personal Notes
-TODO.md
-NOTES.md
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
