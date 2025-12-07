@@ -1,8 +1,8 @@
 # Feature Specification: EcoQuest AR Carbon Tracker
 
-**Feature Branch**: `001-ar-carbon-tracker`  
-**Created**: 2025-12-06  
-**Status**: Draft  
+**Feature Branch**: `001-ar-carbon-tracker`
+**Created**: 2025-12-06
+**Status**: Draft
 **Input**: User description: "Detailed App Specification: EcoQuest AR Carbon Tracker - Build a hackathon-winning Android app using Dreamflow AI only that gamifies carbon footprint tracking with AR challenges, social leaderboards, and real-time analytics"
 
 ## User Scenarios & Testing *(mandatory)*
@@ -136,7 +136,7 @@ A user wants to share their environmental accomplishments to social media platfo
 - **FR-004**: System MUST complete full onboarding flow (splash to dashboard) in under 30 seconds
 - **FR-005**: System MUST display home dashboard with greeting, daily CO2 score circle, and 7-day streak counter
 - **FR-006**: System MUST provide quick log cards for three categories: Food, Transport, and Energy
-- **FR-007**: System MUST calculate CO2 emissions for logged activities using standard emission factors (transport mode, food type, energy consumption)
+- **FR-007**: System MUST calculate CO2 emissions for logged activities using EPA/IPCC standard emission factors: Car 120g/km, Bus 40g/km, Bike 0g/km, Walk 0g/km, Beef 3000g/serving, Chicken 800g/serving, Vegetables 500g/serving, Electricity 500g/kWh, Gas 200g/kWh (see research.md for complete emission factor table and methodology)
 - **FR-008**: System MUST support camera-based receipt/item scanning with automatic CO2 estimation using ML Kit image recognition
 - **FR-009**: System MUST display a "Today's AR Challenge" card on home dashboard with current active challenge
 - **FR-010**: System MUST provide 3 AR challenge types: Scan Plastic (object detection), Plant Tree (tap-to-place), and Bike Route (GPS + AR directions)
@@ -149,7 +149,7 @@ A user wants to share their environmental accomplishments to social media platfo
 - **FR-017**: System MUST support "Challenge Friend" feature sending notifications via Firebase Cloud Messaging
 - **FR-018**: System MUST provide Tracker History tab with weekly bar chart (actual vs target CO2) and pie chart (category breakdown)
 - **FR-019**: System MUST display list view of historical logs with edit functionality
-- **FR-020**: System MUST generate exportable PDF reports with weekly summary, charts, and insights
+- **FR-020**: System MUST generate exportable reports (PNG/JPEG images or PDF screenshots) with weekly summary, charts, EcoQuest branding, and insights that can be shared via native share sheet
 - **FR-021**: System MUST support sharing achievements, AR challenge completions, and reports to social media platforms
 - **FR-022**: System MUST include deep links in shared content directing to app download or app content
 - **FR-023**: System MUST implement offline-first architecture with local data persistence and automatic sync when online
