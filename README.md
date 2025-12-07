@@ -1,8 +1,8 @@
-# 🎯 HackMate
+# 🎯 Flutter_HackMates
 
 <div align="center">
 
-![HackMate Banner](https://img.shields.io/badge/HackMate-Campus%20Skill%20Hub-blue?style=for-the-badge&logo=flutter&logoColor=white)
+![Flutter_HackMatess Banner](https://img.shields.io/badge/Flutter_HackMates-Campus%20Skill%20Hub-blue?style=for-the-badge&logo=flutter&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-3.0+-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)
@@ -57,8 +57,8 @@
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Pusparaj99op/hackmate.git
-cd hackmate
+git clone https://github.com/Pusparaj99op/Flutter_HackMates.git
+cd Flutter_HackMates
 
 # 2. Install dependencies
 flutter pub get
@@ -141,8 +141,8 @@ We love contributions! Here's how you can help:
 ### Development Setup
 ```bash
 # Fork and clone
-git clone https://github.com/Pusparaj99op/hackmate.git
-cd hackmate
+git clone https://github.com/Pusparaj99op/Flutter_HackMates.git
+cd Flutter_HackMates
 
 # Create feature branch
 git checkout -b feature/amazing-feature
@@ -164,8 +164,8 @@ git push origin feature/amazing-feature
 - 🔄 Keep PRs focused and atomic
 
 ### Contributors
-<a href="https://github.com/Pusparaj99op/hackmate/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Pusparaj99op/hackmate" />
+<a href="https://github.com/Pusparaj99op/Flutter_HackMates/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Pusparaj99op/Flutter_HackMates" />
 </a>
 
 ---
@@ -174,7 +174,7 @@ git push origin feature/amazing-feature
 
 <div align="center">
 
-**HackMate** is licensed under the MIT License.
+**Flutter_HackMates** is licensed under the MIT License.
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
@@ -189,13 +189,13 @@ git push origin feature/amazing-feature
 <div align="center">
 
 ### Get Help
-- 📧 **Email**: support@hackmate.com
-- 💬 **Discord**: [Join our community](https://discord.gg/hackmate)
-- 🐛 **Issues**: [Report bugs](https://github.com/Pusparaj99op/hackmate/issues)
-- 💡 **Discussions**: [Share ideas](https://github.com/Pusparaj99op/hackmate/discussions)
+- 📧 **Email**: Closed!!
+- 💬 **Discord**: closed!!
+- 🐛 **Issues**: [Report bugs](https://github.com/Pusparaj99op/Flutter_HackMates/issues)
+- 💡 **Discussions**: [Share ideas](https://github.com/Pusparaj99op/Flutter_HackMates/discussions)
 
 ### Social Media
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/hackmateapp)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Flutter_HackMatesapp)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pranaygajbhiye/)
 
 </div>
@@ -206,6 +206,6 @@ git push origin feature/amazing-feature
 
 **⭐ Star this repo if you found it helpful!**
 
-[⬆️ Back to top](#-hackmate)
+[⬆️ Back to top](#-Flutter_HackMates)
 
 </div>
